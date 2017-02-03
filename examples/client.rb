@@ -5,7 +5,7 @@ module OpenTable
   class Error < StandardError ; end
 
   module Request
-    API_BASE = "http://brendan-opentable.herokuapp.com"
+    API_BASE = "https://brendan-opentable.herokuapp.com"
 
     def connection
       connection = Faraday.new(API_BASE) do |c|
