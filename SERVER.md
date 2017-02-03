@@ -7,7 +7,7 @@ Steps to get API server up and running with OpenTable data
 Fetch code via git:
 
 ```
-git clone git@github.com:sosedoff/opentable.git
+git clone git@github.com:I3rendan/opentable.git
 ```
 
 Install all dependencies:

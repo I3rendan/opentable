@@ -6,17 +6,17 @@ data from XLS file. Its an open-source project, hosted on [Github](https://githu
 
 ## Overview
 
-- API endpoint: [http://opentable.herokuapp.com/api](http://opentable.herokuapp.com/api)
-- Secure API endpoint: [https://opentable.herokuapp.com/api](https://opentable.herokuapp.com/api)
+- API endpoint: [http://brendan-opentable.herokuapp.com/api](http://brendan-opentable.herokuapp.com/api)
+- Secure API endpoint: [https://brendan-opentable.herokuapp.com/api](https://brendan-opentable.herokuapp.com/api)
 - Response Format: JSON (JSONP is supported too)
 - No authentication or API tokens required
 - API is throttled with 1000 requests per hour per IP address
 
 ## Project Status
 
-- [![Build Status](http://img.shields.io/travis/sosedoff/opentable.svg?style=flat)](https://travis-ci.org/sosedoff/opentable)
-- [![Code Climate](http://img.shields.io/codeclimate/github/sosedoff/opentable.svg?style=flat)](https://codeclimate.com/github/sosedoff/opentable)
-- [![Coverage Status](https://img.shields.io/coveralls/sosedoff/opentable.svg?style=flat)](https://coveralls.io/r/sosedoff/opentable?branch=master)
+- [![Build Status](http://img.shields.io/travis/sosedoff/brendan-opentable.svg?style=flat)](https://travis-ci.org/sosedoff/opentable)
+- [![Code Climate](http://img.shields.io/codeclimate/github/sosedoff/brendan-opentable.svg?style=flat)](https://codeclimate.com/github/sosedoff/opentable)
+- [![Coverage Status](https://img.shields.io/coveralls/sosedoff/brendan-opentable.svg?style=flat)](https://coveralls.io/r/sosedoff/opentable?branch=master)
 
 ## API Reference
 
@@ -106,9 +106,9 @@ Returns a single restaurant record, see reference for details. Example:
   "lat": 41.935137,
   "lng": -87.662815,
   "price": 2,
-  "reserve_url": "http://www.opentable.com/single.aspx?rid=107257",
-  "mobile_reserve_url": "http://mobile.opentable.com/opentable/?restId=107257",
-  "image_url": "https://www.opentable.com/img/restimages/107257.jpg"
+  "reserve_url": "http://www.brendan-opentable.com/single.aspx?rid=107257",
+  "mobile_reserve_url": "http://mobile.brendan-opentable.com/opentable/?restId=107257",
+  "image_url": "https://www.brendan-opentable.com/img/restimages/107257.jpg"
 }
 ```
 
@@ -130,9 +130,9 @@ Restaurant attributes:
   "lat": 41.935137,
   "lng": -87.662815,
   "price": 2,
-  "reserve_url": "http://www.opentable.com/single.aspx?rid=107257",
-  "mobile_reserve_url": "http://mobile.opentable.com/opentable/?restId=107257",
-  "image_url": "https://www.opentable.com/img/restimages/107257.jpg"
+  "reserve_url": "http://www.brendan-opentable.com/single.aspx?rid=107257",
+  "mobile_reserve_url": "http://mobile.brendan-opentable.com/opentable/?restId=107257",
+  "image_url": "https://www.brendan-opentable.com/img/restimages/107257.jpg"
 }
 ```
 
